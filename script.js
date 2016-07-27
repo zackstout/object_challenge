@@ -7,7 +7,7 @@ var locations = []; // this array will hold your objects
 // push object instances to locations array
 
 // DO NOT MODIFY THIS CODE
-$document.ready(function () {
+$(document).ready(function () {
   locations.forEach(function (element, index) {
     var $ol = $('<ol></ol>');
     $ol.append('<span>' +  element.state + '</span>');
